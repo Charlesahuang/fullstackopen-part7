@@ -1,0 +1,44 @@
+/* Header.css */
+.header-container {
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.header-link:hover {
+    color: #0056b3;
+}
+
+.header-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.header-button:hover {
+    background-color: #0056b3;
+}
+
+.header-user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-greeting {
+    margin-right: 10px;
+}

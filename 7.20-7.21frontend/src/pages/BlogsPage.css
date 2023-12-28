@@ -1,0 +1,44 @@
+/* BlogPage.css */
+.blog-page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.blog-page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.blog-page-title {
+    color: #333;
+    margin: 0;
+}
+
+.new-blog-button {
+    background-color: #007bff;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.new-blog-button:hover {
+    background-color: #0056b3;
+}
+
+.blog-list {
+    list-style: none;
+    padding: 0;
+}
+
+.no-blogs-message {
+    color: #666;
+    text-align: center;
+}

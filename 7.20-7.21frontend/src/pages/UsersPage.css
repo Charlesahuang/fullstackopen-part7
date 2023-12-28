@@ -1,0 +1,38 @@
+/* UsersPage.css */
+.user-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.user-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.user-list {
+    list-style: none;
+    padding: 0;
+}
+
+.user-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.user-item p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.user-profile-link {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.user-profile-link:hover {
+    color: #0056b3;
+}
